@@ -24,9 +24,11 @@
       width: 160px;
       height: 160px;
       object-fit: cover;
+      object-position: center;
       border-radius: 50%;
       border: 4px solid white;
       margin-bottom: 20px;
+      display: inline-block;
     }
 
     header h1 {
@@ -101,7 +103,11 @@
 <body>
 
   <header>
-    <img src="headshot.jpeg" alt="Headshot of Justin Reyes" class="headshot">
+    <img
+      src="./headshot.jpeg"
+      alt="Headshot of Justin Reyes"
+      class="headshot"
+    >
 
     <h1>Justin Reyes</h1>
     <p>Student | Aspiring Financial Professional</p>
@@ -116,10 +122,11 @@
 
   <section id="about">
     <h2>About Me</h2>
+
     <p>
       Hi! I'm Justin. I'm a student interested in business, finance,
-      and accounting. I enjoy learning new skills,
-      working with teams, and taking on challenging projects.
+      and accounting. I enjoy learning new skills, working with teams,
+      and taking on challenging projects.
     </p>
   </section>
 
@@ -127,6 +134,7 @@
     <h2>Experience</h2>
 
     <h3>Accounting Internship</h3>
+
     <p>
       Worked with accounts receivable, reconciliations, financial data,
       Excel, and accounting systems.
@@ -138,6 +146,7 @@
 
     <div class="project">
       <h3>Financial Analysis Project</h3>
+
       <p>
         Used Excel to organize and analyze financial information and identify
         trends in financial data.
@@ -146,6 +155,7 @@
 
     <div class="project">
       <h3>Personal Website</h3>
+
       <p>
         Built this website using HTML and CSS.
       </p>
@@ -153,6 +163,7 @@
 
     <div class="project">
       <h3>Data Analysis Project</h3>
+
       <p>
         Analyzed datasets and presented results using spreadsheets and
         visualization tools.
@@ -163,16 +174,28 @@
   <section id="contact">
     <h2>Contact</h2>
 
-    <p>Email: justinreyes2205@gmail.com</p>
+    <p>
+      Email:
+      <a href="mailto:justinreyes2205@gmail.com">
+        justinreyes2205@gmail.com
+      </a>
+    </p>
 
     <p>
       LinkedIn:
-      <a href="https://www.linkedin.com/in/justin-reyes-688b92358/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/justin-reyes-688b92358/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         My LinkedIn
       </a>
     </p>
 
-    <a class="button" href="mailto:justinreyes2205@gmail.com">
+    <a
+      class="button"
+      href="mailto:justinreyes2205@gmail.com"
+    >
       Contact Me
     </a>
   </section>
